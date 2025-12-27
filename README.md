@@ -1,7 +1,34 @@
-# Careful!
+# Neura Flashcards
 
-You seem to have visited `github.com/me50/USERNAME`, but you forgot to replace `USERNAME` with your own GitHub username! For instance, if your GitHub username were `jharvard` (which it isn't!), you should have visited `github.com/me50/jharvard` instead of `github.com/me50/USERNAME`.
+#### Video Demo: https://youtu.be/_cTz-RQ2wZ8
 
-## tl;dr
+## Description
 
-Visit `github.com/me50/USERNAME`, where `USERNAME` is your own GitHub username, not `USERNAME` literally!
+FlashLearn is a web-based flashcard application designed to help users study using active recall.
+The application allows users to import flashcards from a JSON file, flip cards to reveal answers,
+navigate between cards, and switch between light and dark themes.
+
+This project was developed as the final project for HarvardX CS50's Introduction to Computer Science
+and was built using HTML, CSS, and JavaScript, without external frameworks.
+
+## Features
+
+- Import flashcards from a JSON file
+- Flip cards to reveal answers
+- Navigate between flashcards (Next / Previous)
+- Light and dark mode toggle
+- Responsive design
+- Runs locally without a server
+
+## JSON File Format
+
+The JSON file must follow this structure:
+
+```json
+[
+  {
+    "pergunta": "What is sociology?",
+    "resposta": "The scientific study of society."
+  }
+]
+
